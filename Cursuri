@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="ro">
+
+<head>
+  <title>Printre Tobe</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>  
+
+  <div class="overlay">
+
+    <!-- HEADER -->
+    <header>
+      <img src="images/pozatobe2.jpg" alt="MASTER OF DRUMS" width="478">
+      <img src="images/poza.jpg" alt="MASTER OF DRUMS" width="437">
+      <img src="images/pozatobe3.jpg" alt="MASTER OF DRUMS" width="520">
+      <h1>CURSURI DE TOBE</h1>
+
+      <h2>PRINTRE TOBE</h2>
+    </header>
+
+    <!-- NAVIGATIE (lista din stanga) -->
+    <nav>
+      <h2>DESPRE TOBE</h2>
+      <p>PRACTICA TOBELOR</p>
+      <p> Dimensiunile corecte pentru un kit care sa te satisfaca in arta de a canta la tobe</p>
+
+      <h3>Ce vreau sa invat</h3> 
+      <p>Sa cant la tobe si sa le inteleg.</p>
+
+      <h3>Cum sa inteleg tobele</h3>
+      <p>
+        <a href="https://www.google.com/search?q=din+ce+sunt+formate+tobele" target="_blank">
+          Din ce sunt formate tobele
+        </a>
+      </p>
+
+      <h2>TEORIA TOBELOR</h2>
+      <h2>
+        <a href="https://www.google.com/search?q=teoria+muzicala" target="_blank">
+          Muzica si teoria ei
+        </a>
+      </h2>
+
+      <h2>
+        <a href="https://www.google.com/search?q=drums.com" target="_blank">
+          Mergi la TOBE
+        </a>
+      </h2>
+    </nav>
+
+    <!-- CONTINUT PRINCIPAL -->
+    <section>
+            <h3>
+      <ol>
+        <li>Generalitati</li>
+        <li>Fineturi</li>
+        <li>Practica</li>
+      </ol>
+
+      <ul>
+        <li>TOBE GENERAL</li>
+        <li>ACORDAJ TOBE</li>
+        <li>PEDALE SI POZITII</li>
+      </ul>
+            </h3>
+
+      <img src="images/chitara2.jpg" alt="MASTER OF DRUMS" width="417">
+      <img src="images/chitara.jpg" alt="MASTER OF DRUMS" width="550">
+      <img src="images/chitara3.jpg.jpg" alt="MASTER OF DRUMS" width="468">
+
+
+      <h1>CURSURI CHITARA</h1>
+      <h2>Ce trebuie sa stiu despre chitara</h2>
+      <p>Griful si acordajul corzilor</p>
+      <p>Tipuri de corzi si dimensiuni</p>
+      <h2>
+          <a href="https://www.google.com/search?q=teoria+chitarii" target="_blank">
+           TEORIA CHITARII </a>
+      <h2>
+        <a  
+        href="https://www.google.com/search?q=chitari" target="_blank">
+        Mergi la chitara
+        </a>
+      </h2>
+      <img src="images/pian2.jpg.jpg" alt="MASTER" width="480">
+      <img src="images/pian3.jpg.jpg" alt="MASTER" width="480">
+      <img src="images/pian1.jpg.jpg" alt="MASTER" width="480">
+
+
+      <h1>CURSURI PIAN</h1>
+      <h2>Cum sa invat intr-un mod corect si distractiv claviatura</h2>
+      <p>Clapele albe si clapele negre</p>
+      <p>Pedalele pianului</p>
+      <p>Notele muzicale si valorile lor</p>
+      <h2>
+        <a href="https://www.google.com/search?q=teoria+pian" target="_blank">
+        TEORIA PIANULUI 
+        </a>
+      </h2>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+      <p>Contact : (RO) +40 7XX XXX XXX</p>
+      <p>© <span id="year"></span> Copyright by Florin D</p>
+    </footer>
+
+     <p id="dataOra"></p>
+     <script>
+      setInterval(()=>document.getElementById('dataOra').textContent=new Date().toLocaleString(),1000);
+     </script>
+
+    
+
+  </div>
+<!DOCTYPE html>
