@@ -11,6 +11,8 @@
   <!-- Google Fonts (o singură dată) -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700;800;900&display=swap" rel="stylesheet">
+
 
   <!-- Font titluri / banner -->
   <link href="https://fonts.googleapis.com/css2?family=Patua+One&display=swap" rel="stylesheet">
@@ -28,6 +30,7 @@
   <header class="banner">
     <h1 class="banner-title">Bine ati venit in lumea muzicii si a instrumentelor muzicale!</h1>
     <h2>"Muzica este arta de a gandii cu sunete"</h2>
+    <p>CURSURI DE TOBE ,CHITARA, PIAN</p>
   </header>
 
 
@@ -35,119 +38,187 @@
 
     <!-- HEADER -->
     <header class="instrumente">
-      <h1>CURSURI DE TOBE , CHITARA, PIAN</h1>
+      <h1 class="titlu-sectiune">CURSURI DE TOBE </h1>
       <div class="galerie">
-        <img src="images/pozatobe2.jpg" alt="MASTER OF DRUMS" alt="">
-        <img src="images/poza.jpg" alt="MASTER OF DRUMS" alt="">
-        <img src="images/pozatobe3.jpg" alt="MASTER OF DRUMS" alt="">
+        <img src="images/pozatobe2.jpg" alt="MASTER OF DRUMS">
+        <img src="images/poza.jpg" alt="MASTER OF DRUMS">
+        <img src="images/pozatobe3.jpg" alt="MASTER OF DRUMS">
       </div>
     </header>
 
-    <h2>CURSURI DE TOBE</h2>
-    <h2>PRINTRE TOBE</h2>
-    <h2>Despre tobe</h2>
-    <h3>Practica tobelor</h3>
-    <h3>Dimensiunile corecte pentru un kit care sa te satisfaca in arta de a canta la tobe</h3>
-    <h2>Ce vreau sa invat</h2>
-    <h3>Cum sa invat sa inteleg tobele si sa cant</h3>
 
-    <h2>
-      <a href="https://www.google.com/search?q=din+ce+sunt+formate+tobele" target="_blank">
-        Din ce sunt formate tobele
-      </a>
-    </h2>
-    <h2>Teeoria tobelor</h2>
-    <h2>
-      <a href="https://www.google.com/search?q=teoria+muzicala" target="_blank">
-        Muzica si teoria ei
-      </a>
-    </h2>
+    <div class="card">
 
-    <h2>
-      <a href="https://www.google.com/search?q=drums.com" target="_blank">
-        Mergi la TOBE
-      </a>
-    </h2>
+      <section class="sectiune">
+       <h2><span class="h2-icon">🎵</span>🥁 Cursuri de Tobe 🥁</h2>
+        <p>Tobele sunt instrumente de percuție esențiale în majoritatea genurilor muzicale.</p>
+        <p>Practica regulată ajută la dezvoltarea coordonării, ritmului și preciziei.</p>
+        <p>Dimensiunile corecte pentru un kit care sa te satisfaca in arta de a canta la tobe</p>
+        <h2>Ce vei învăța</h2>
+        <p>Vei învăța tehnici de bază, coordonare, ritm și structuri muzicale.</p>
+        <p>Vei înțelege cum să folosești corect pedalele și poziția corpului.</p>
+      </section>
+      <section class="linkuri">
+        <p> <a href="https://www.google.com/search?q=din+ce+sunt+formate+tobele" target="_blank">
+            Din ce sunt formate tobele
+          </a>
+        </p>
+
+        <h2>Teoria tobelor</h2>
+        <p>
+          <a href="https://www.google.com/search?q=teoria+muzicala" target="_blank">
+            Muzica si teoria ei
+          </a>
+        </p>
+
+        <p>
+          <a href="https://www.google.com/search?q=drums" target="_blank">
+            Mergi la TOBE
+          </a>
+        </p>
+      </section>
 
 
-    <!-- CONTINUT PRINCIPAL -->
+      <!-- structura curs -->
+      <section class="structura-curs">
+        <h2>Structura cursului</h2>
 
-    <h3>
-      <ol>
-        <li>Generalitati</li>
-        <li>Fineturi</li>
-        <li>Practica</li>
-      </ol>
+        <ol>
+          <li>Generalități</li>
+          <li>Finețuri</li>
+          <li>Practică</li>
+        </ol>
 
-      <ul>
-        <li>TOBE GENERAL</li>
-        <li>ACORDAJ TOBE</li>
-        <li>PEDALE SI POZITII</li>
-      </ul>
-    </h3>
+        <ul>
+          <li>Tobe noțiuni generale</li>
+          <li>Acordaj tobe</li>
+          <li>Pedale și poziții</li>
+        </ul>
+      </section>
+    </div>
 
 
 
     <div class="content">
       <header class="instrumente">
-        <h1>CURSURI CHITARA</h1>
+        <h1 class="titlu-sectiune">CURSURI DE CHITARĂ</h1>
         <div class="galerie">
           <img src="images/chitara2.jpg" alt="MASTER OF DRUMS" alt="">
           <img src="images/chitara.jpg" alt="MASTER OF DRUMS" alt="">
           <img src="images/chitara3.jpg.jpg" alt="MASTER OF DRUMS" alt="">
         </div>
       </header>
+      <div class="card">
+        <section class="sectiune">
 
+          <h2><span class="h2-icon">🎵</span>🎸 Cursuri de Chitară 🎸</h2>
+          <p>Chitara este unul dintre cele mai populare instrumente muzicale, folosită în multe stiluri muzicale.</p>
+          <p>Prin exercițiu constant, vei dezvolta tehnica, auzul muzical și coordonarea mâinilor.</p>
 
-      <h2>Ce trebuie sa stiu despre chitara</h2>
-      <h3>Griful si acordajul corzilor</h3>
-      <h3>Tipuri de corzi si dimensiuni</h3>
+          <h2>Ce vei învăța</h2>
 
-      <div class="lista-linkuri">
-        <h2>
-          <a href="https://www.google.com/search?q=teoria+chitarii" target="_blank">
-            Teoria chitarii </a>
-        </h2>
-        <h2>
-          <a href="https://www.google.com/search?q=chitari" target="_blank">
-            Mergi la chitara </a>
-        </h2>
+          <p>Vei învăța poziția corectă a mâinilor și degetelor pe grif.</p>
+          <p>Vei înțelege acordurile, ritmul și structura pieselor muzicale.</p>
+          <p>Vei învăța să cânți melodii simple și complexe.</p>
+
+          <h2>Structura cursului</h2>
+
+          <ol>
+            <li>Noțiuni de bază</li>
+            <li>Acorduri și ritm</li>
+            <li>Tehnici avansate</li>
+          </ol>
+
+          <ul>
+            <li>Chitară acustică</li>
+            <li>Chitară electrică</li>
+            <li>Tehnici de interpretare</li>
+          </ul>
+        </section>
+
+        <div class="linkuri">
+          <p><a href="https://www.google.com/search?q=teoria+chitarii" target="_blank">
+              Teoria chitarei
+            </a></p>
+
+          <p><a href="https://www.google.com/search?q=acorduri+chitara" target="_blank">
+              Acorduri de chitară
+            </a></p>
+
+          <p><a href="https://www.google.com/search?q=guitar" target="_blank">
+              Mergi la chitară
+            </a></p>
+        </div>
+        </section>
       </div>
+
+
+
 
 
       <div class="content">
         <header class="instrumente">
-          <h1>CURSURI PIAN</h1>
+          <h1 class="titlu-sectiune">CURSURI DE PIAN</h1>
           <div class="galerie">
-            <img src="images/pian2.jpg.jpg" alt="MASTER" alt="">
-            <img src="images/pian3.jpg.jpg" alt="MASTER" alt="">
-            <img src="images/pian1.jpg.jpg" alt="MASTER" alt="">
+            <img src="images/pian2.jpg.jpg" alt="MASTER">
+            <img src="images/pian3.jpg.jpg" alt="MASTER">
+            <img src="images/pian1.jpg.jpg" alt="MASTER">
           </div>
         </header>
 
-        <h2>Cum sa invat intr-un mod corect si distractiv claviatura</h2>
-        <h3>Clapele albe si clapele negre</h3>
-        <h3>Pedalele pianului</h3>
-        <div class="lista-linkuri">
-          <h2>
-            <a href="https://www.google.com/search?q=notele+muzicale+si+valorile+lor" target="_blank">
-              Notele muzicale si valorile lor
-            </a>
-            <h2>
-              <a href="https://www.google.com/search?q=teoria+pian" target="_blank">
-                Teoria pianului
-              </a>
-            </h2>
+        <div class="card">
+
+          <section class="sectiune">
+            <h2 ><span class="h2-icon">🎵</span>🎹 Cursuri de Pian 🎹</h2>
+
+
+            <p>Pianul este un instrument complex și expresiv, potrivit pentru orice vârstă și nivel.</p>
+            <p>Prin exercițiu constant, vei dezvolta coordonarea mâinilor, auzul muzical și tehnica interpretării.</p>
+
+            <h2>Ce vei învăța</h2>
+
+            <p>Vei învăța poziția corectă a mâinilor și degetelor pe claviatură.</p>
+            <p>Vei înțelege notele muzicale, ritmul și structura pieselor.</p>
+            <p>Vei învăța să cânți melodii simple și complexe.</p>
+
+            <h2>Structura cursului</h2>
+
+            <ol>
+              <li>Noțiuni de bază</li>
+              <li>Tehnici de interpretare</li>
+              <li>Repertoriu și expresivitate</li>
+            </ol>
+
+            <ul>
+              <li>Pian clasic</li>
+              <li>Pian modern</li>
+              <li>Exerciții de coordonare</li>
+            </ul>
+
+            <div class="linkuri">
+              <p><a href="https://www.google.com/search?q=teoria+pianului" target="_blank">
+                  Teoria pianului
+                </a></p>
+
+              <p><a href="https://www.google.com/search?q=note+pian" target="_blank">
+                  Note pentru pian
+                </a></p>
+
+              <p><a href="https://www.google.com/search?q=piano+lessons" target="_blank">
+                  Mergi la pian
+                </a></p>
+            </div>
+          </section>
         </div>
+
 
 
 
         <!-- FOOTER -->
         <footer>
-          <h3>Contact : (RO) +40 767 XXX XXX</h3>
-          <h3>© <span id="year"></span> Copyright by Florin D</h3>
+          <p>Contact : (RO) +40 767 XXX XXX © <span id="year"></span> Copyright by Florin D</p>
 
-          <h3 id="dataOra"></h3>
+          <p id="dataOra"></p>
           <script>
             setInterval(() => document.getElementById('dataOra').textContent = new Date().toLocaleString(), 1000);
           </script>
