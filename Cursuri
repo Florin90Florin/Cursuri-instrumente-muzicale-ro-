@@ -37,20 +37,22 @@
   <div class="overlay">
 
     <!-- HEADER -->
-    <header class="instrumente">
-      <h1 class="titlu-sectiune">CURSURI DE TOBE </h1>
-      <div class="galerie">
-        <img src="images/pozatobe2.jpg" alt="MASTER OF DRUMS">
-        <img src="images/poza.jpg" alt="MASTER OF DRUMS">
-        <img src="images/pozatobe3.jpg" alt="MASTER OF DRUMS">
-      </div>
-    </header>
+    <div class="content">
+      <header class="instrumente">
+        <h1 class="titlu-sectiune">CURSURI DE TOBE </h1>
+        <div class="galerie">
+          <img src="images/pozatobe2.jpg" alt="MASTER OF DRUMS">
+          <img src="images/poza.jpg" alt="MASTER OF DRUMS">
+          <img src="images/pozatobe3.jpg" alt="MASTER OF DRUMS">
+        </div>
+      </header>
+    </div>
 
 
     <div class="card">
 
       <section class="sectiune">
-       <h2><span class="h2-icon">🎵</span>🥁 Cursuri de Tobe 🥁</h2>
+        <h2><span class="h2-icon">🥁</span>Cursuri de Tobe </h2>
         <p>Tobele sunt instrumente de percuție esențiale în majoritatea genurilor muzicale.</p>
         <p>Practica regulată ajută la dezvoltarea coordonării, ritmului și preciziei.</p>
         <p>Dimensiunile corecte pentru un kit care sa te satisfaca in arta de a canta la tobe</p>
@@ -67,7 +69,7 @@
         <h2>Teoria tobelor</h2>
         <p>
           <a href="https://www.google.com/search?q=teoria+muzicala" target="_blank">
-            Muzica si teoria ei
+            🎵 Muzica si teoria ei
           </a>
         </p>
 
@@ -103,15 +105,15 @@
       <header class="instrumente">
         <h1 class="titlu-sectiune">CURSURI DE CHITARĂ</h1>
         <div class="galerie">
-          <img src="images/chitara2.jpg" alt="MASTER OF DRUMS" alt="">
-          <img src="images/chitara.jpg" alt="MASTER OF DRUMS" alt="">
-          <img src="images/chitara3.jpg.jpg" alt="MASTER OF DRUMS" alt="">
+          <img src="images/chitara2.jpg" alt="MASTER OF DRUMS">
+          <img src="images/chitara.jpg" alt="MASTER OF DRUMS">
+          <img src="images/chitara3.jpg.jpg" alt="MASTER OF DRUMS">
         </div>
       </header>
       <div class="card">
         <section class="sectiune">
 
-          <h2><span class="h2-icon">🎵</span>🎸 Cursuri de Chitară 🎸</h2>
+          <h2><span class="h2-icon">🎸</span> Cursuri de Chitară </h2>
           <p>Chitara este unul dintre cele mai populare instrumente muzicale, folosită în multe stiluri muzicale.</p>
           <p>Prin exercițiu constant, vei dezvolta tehnica, auzul muzical și coordonarea mâinilor.</p>
 
@@ -138,7 +140,7 @@
 
         <div class="linkuri">
           <p><a href="https://www.google.com/search?q=teoria+chitarii" target="_blank">
-              Teoria chitarei
+              🎵Teoria chitarei
             </a></p>
 
           <p><a href="https://www.google.com/search?q=acorduri+chitara" target="_blank">
@@ -169,7 +171,7 @@
         <div class="card">
 
           <section class="sectiune">
-            <h2 ><span class="h2-icon">🎵</span>🎹 Cursuri de Pian 🎹</h2>
+            <h2><span class="h2-icon">🎹</span> Cursuri de Pian </h2>
 
 
             <p>Pianul este un instrument complex și expresiv, potrivit pentru orice vârstă și nivel.</p>
@@ -197,7 +199,7 @@
 
             <div class="linkuri">
               <p><a href="https://www.google.com/search?q=teoria+pianului" target="_blank">
-                  Teoria pianului
+                  🎵 Teoria pianului
                 </a></p>
 
               <p><a href="https://www.google.com/search?q=note+pian" target="_blank">
@@ -211,22 +213,53 @@
           </section>
         </div>
 
-
-
-
-        <!-- FOOTER -->
-        <footer>
-          <p>Contact : (RO) +40 767 XXX XXX © <span id="year"></span> Copyright by Florin D</p>
-
-          <p id="dataOra"></p>
-          <script>
-            setInterval(() => document.getElementById('dataOra').textContent = new Date().toLocaleString(), 1000);
-          </script>
-        </footer>
-
-
-
       </div>
+
+
+      <!-- FOOTER -->
+      <footer class="footer-premium">
+        <div class="footer-container">
+
+          <!-- Coloana 1 -->
+          <div class="footer-col">
+            <h3>🎵 Cursuri de Muzică</h3>
+            <p>Tobe, chitară și pian pentru toate nivelurile.
+              Învață muzica într-un mod clar, practic și modern.</p>
+          </div>
+
+          <!-- Coloana 2 -->
+          <div class="footer-col">
+            <h4>Instrumente</h4>
+            <p>🥁 Tobe</p>
+            <p>🎸 Chitară</p>
+            <p>🎹 Pian</p>
+          </div>
+
+          <!-- Coloana 3 -->
+          <div class="footer-col">
+            <h4>Contact</h4>
+            <p>📞 +40 767 XXX XXX</p>
+            <p>📍 România</p>
+            <p>🕒 <span id="clock"></span></p>
+          </div>
+
+        </div>
+
+        <div class="footer-bottom">
+          © <span id="year"></span> Florin D • Toate drepturile rezervate
+        </div>
+      </footer>
+
+      <script>
+        document.getElementById('year').textContent = new Date().getFullYear();
+        setInterval(() => {
+          document.getElementById('clock').textContent = new Date().toLocaleString();
+        }, 1000);
+      </script>
+
+
+
+    </div>
 </body>
 
 </html>
